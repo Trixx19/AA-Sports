@@ -23,17 +23,23 @@ Atualmente, o projeto conta com as seguintes funcionalidades implementadas:
 
 ## 📁 Estrutura do Projeto
 
-O código-fonte está organizado na pasta `src` com a seguinte estrutura para garantir manutenibilidade e escalabilidade:
+O código está organizado com a seguinte estrutura para garantir manutenibilidade e escalabilidade:
 
 ```
-src/
-├── assets/         # Para arquivos estáticos como imagens
-├── components/     # Componentes reutilizáveis (Header, ProductCard, etc.)
-├── contexts/       # Contextos da aplicação (ex: CartContext)
-├── data/           # Dados mockados (ex: lista de produtos)
-├── pages/          # Componentes que representam páginas completas (HomePage, CartPage)
-├── App.js          # Componente principal que organiza o layout e as rotas
-└── index.js        # Ponto de entrada da aplicação
+AA-Sports/
+├── public/
+│   ├── images/         # Imagens estáticas dos produtos
+│   │   └── products/
+│   ├── index.html      # Template HTML principal
+│   └── ...
+├── src/
+│   ├── components/     # Componentes reutilizáveis (Header, ProductCard)
+│   ├── contexts/       # Contextos da aplicação (CartContext)
+│   ├── data/           # Dados mockados (lista de produtos)
+│   ├── pages/          # Componentes de página (HomePage, CartPage)
+│   ├── App.js          # Componente principal com layout e rotas
+│   └── index.js        # Ponto de entrada da aplicação
+└── package.json
 ```
 
 ## 🏁 Como Executar o Projeto
@@ -49,8 +55,10 @@ Para rodar este projeto em seu ambiente local, siga os passos abaixo:
 2.  **Navegue até o diretório do projeto:**
 
     ```bash
-    cd AA-Sports
+    cd AA-Sports/aa-sports 
     ```
+
+    *(Ajuste o caminho se sua estrutura de pasta for diferente)*
 
 3.  **Instale as dependências:**
 
@@ -65,7 +73,3 @@ Para rodar este projeto em seu ambiente local, siga os passos abaixo:
     ```
 
 Após executar o último comando, o site estará disponível para acesso em `http://localhost:3000` no seu navegador.
-
------
-
-Espero que goste\! Ele cobre todos os pontos importantes de forma clara e profissional.
